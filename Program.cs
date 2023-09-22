@@ -8,11 +8,11 @@ namespace BasicConnection;
 
 public class Program
 {   
-    // koneksi ke database
+    
     static string connectionString = "Data Source=IQSALGAFHARI;Integrated Security=True;Database=db_hr_dts;Connect Timeout=30;";
     static SqlConnection? connection;
     private static void Main()
-    {// menampilkan halaman awal console saat pertama kali dieksekusi, menampilkan daftar list region, daftar list countr, list locasi dan pilihan lainnya
+    {
         var choice = true;
         while (choice)
         {
